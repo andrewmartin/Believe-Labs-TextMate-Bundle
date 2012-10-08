@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php if(function_exists('wp_pagenavi')) { wp_pagenavi(); } ?&gt;</string>
+	<key>name</key>
+	<string>WP - Page Navi</string>
+	<key>tabTrigger</key>
+	<string>wppagenavi</string>
+	<key>uuid</key>
+	<string>E1B626D9-8736-45BB-9DEC-F802B5D1B393</string>
+</dict>
+</plist>

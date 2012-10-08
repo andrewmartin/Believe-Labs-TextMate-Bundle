@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:#}ul${2:.} li.$3 a {
+	background-position:${4:0}px ${5:0}px;
+}
+
+${1:# }ul${2:.} li.$3 a:hover {
+	background-position:${4:0}px ${5:0}px;
+}</string>
+	<key>name</key>
+	<string>CSS nav item - master sprite (bgp)</string>
+	<key>tabTrigger</key>
+	<string>navi</string>
+	<key>uuid</key>
+	<string>9A18B86A-5C61-4029-8E5A-0192DDC969FC</string>
+</dict>
+</plist>

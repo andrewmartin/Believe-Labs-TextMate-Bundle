@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php
+\$category = get_the_category();
+\$category_slug = strtolower(\$category[0]-&gt;cat_name);
+?&gt;
+&lt;li class="&lt;?php echo \$category_slug; ?&gt;"&gt;&lt;a href="&lt;?php the_permalink(); ?&gt;" title="&lt;?php the_title(); ?&gt;"&gt;&lt;?php the_title(); ?&gt;</string>
+	<key>name</key>
+	<string>WP - Category Slug</string>
+	<key>tabTrigger</key>
+	<string>wpcat</string>
+	<key>uuid</key>
+	<string>A7511B9A-998A-4ED9-80DE-EA624B4ABF30</string>
+</dict>
+</plist>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;script src="&lt;?php bloginfo('stylesheet_directory'); ?&gt;/scripts/cufon-yui.js"&gt;&lt;/script&gt;
+&lt;script src="&lt;?php bloginfo('stylesheet_directory'); ?&gt;/scripts/${1:Helvetica_Light_300.font.js}"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" charset="utf-8"&gt;
+Cufon.replace('${2:h1,h2,h3,h4,h5,h6}', {
+	fontFamily: '${3:Helvetica Light}'
+});
+&lt;/script&gt;</string>
+	<key>name</key>
+	<string>jQuery - cufon - setup</string>
+	<key>tabTrigger</key>
+	<string>cufon</string>
+	<key>uuid</key>
+	<string>82A47051-3984-4C49-83D8-B6D84FE38D9E</string>
+</dict>
+</plist>

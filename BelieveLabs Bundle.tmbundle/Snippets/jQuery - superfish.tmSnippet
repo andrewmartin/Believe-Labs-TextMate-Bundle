@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>  // Superfish
+\$('ul.sf-menu').superfish({ 
+	delay:       1000,                            // one second delay on mouseout 
+	animation:   {opacity:'show',height:'show'},  // fade-in and slide-down animation 
+	speed:       fxs,                          // faster animation speed 
+	autoArrows:  false,                           // disable generation of arrow mark-up 
+	dropShadows: false                            // disable drop shadows 
+}); 
+</string>
+	<key>name</key>
+	<string>jQuery - superfish</string>
+	<key>tabTrigger</key>
+	<string>superfish</string>
+	<key>uuid</key>
+	<string>21DE9C97-0FE4-4E5E-8AAF-E2C43FD399FD</string>
+</dict>
+</plist>

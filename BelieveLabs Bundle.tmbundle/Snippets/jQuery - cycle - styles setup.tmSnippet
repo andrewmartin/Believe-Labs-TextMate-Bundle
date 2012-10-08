@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>div.cycle-paging {
+	position:${1:relative};
+}
+
+div.cycle-paging ul li {
+	
+}
+
+div.cycle-paging ul li a {
+	
+}
+
+div.cycle-paging ul li#cycle-prev {
+	
+}
+
+div.cycle-paging ul li#cycle-prev a {
+	
+}
+
+div.cycle-paging ul li#cycle-prev a:hover {
+	
+}
+
+div.cycle-paging ul li#cycle-next {
+	
+}
+
+div.cycle-paging ul li#cycle-next a {
+	
+}
+
+div.cycle-paging ul li#cycle-next a:hover {
+	
+}</string>
+	<key>name</key>
+	<string>jQuery - cycle - styles setup</string>
+	<key>tabTrigger</key>
+	<string>cycle</string>
+	<key>uuid</key>
+	<string>4AC81D5D-3F8F-4CC5-B9B6-4B5C488CFBF4</string>
+</dict>
+</plist>

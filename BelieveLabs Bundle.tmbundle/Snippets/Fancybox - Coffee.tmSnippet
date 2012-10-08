@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$("a.fancybox").fancybox
+  openEffect: "${1:elastic/fade/none}"
+  closeEffect: "$1"
+  nextEffect: "$1"
+  prevEffect: "$1"
+  closeBtn: true
+  maxWidth: 800
+  maxHeight: 600
+  fitToView: true
+  width: "70%"
+  height: "70%"
+  autoSize: false
+  closeClick: false
+  wrapCSS: "fancybox-content"
+  helpers:
+    title:
+      type: "${2:float/outside/over/inside}"
+    buttons: {}
+    overlay:
+      opacity: 0.8
+      css: 
+        "background-color": "#${4:000}"
+      closeClick: true
+      speedIn : 0
+      speedOut : 300
+    thumbs:
+      width: 50
+      height: 50</string>
+	<key>name</key>
+	<string>Fancybox - Coffee</string>
+	<key>tabTrigger</key>
+	<string>fancy</string>
+	<key>uuid</key>
+	<string>CBBC27F0-3FC9-451E-AF89-26375EF5E013</string>
+</dict>
+</plist>

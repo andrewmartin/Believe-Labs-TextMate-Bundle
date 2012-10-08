@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>case '$1':
+window.location = '$2';
+break;
+</string>
+	<key>name</key>
+	<string>Window Location</string>
+	<key>tabTrigger</key>
+	<string>wloc</string>
+	<key>uuid</key>
+	<string>405D220A-37E9-4852-BB91-5116F757A857</string>
+</dict>
+</plist>

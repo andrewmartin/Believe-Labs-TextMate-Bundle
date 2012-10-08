@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;script src="${1:&lt;?php bloginfo('stylesheet_directory'); ?&gt;/}scripts/lib/swfobject.js" type="text/javascript"&gt;&lt;/script&gt;
+
+&lt;script type="text/javascript"&gt;
+	var flashvars = {};
+	var params = {};
+	params.play = "true";
+	params.loop = "false";
+	params.quality = "high";
+	params.wmode = "transparent";
+	var attributes = {};
+	attributes.id = "flash-container";
+	swfobject.embedSWF("${1:&lt;?php bloginfo('stylesheet_directory'); ?&gt;/}swf/$2.swf", "flash-container", "$3", "$4", "9.0.0", false, flashvars, params, attributes);
+&lt;/script&gt;</string>
+	<key>keyEquivalent</key>
+	<string>^~@j</string>
+	<key>name</key>
+	<string>jQuery Script - swfobject</string>
+	<key>uuid</key>
+	<string>3EDB415C-A34F-4229-BB96-38817373B6A3</string>
+</dict>
+</plist>

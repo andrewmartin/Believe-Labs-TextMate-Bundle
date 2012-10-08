@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php edit_post_link('Edit this Entry', '&lt;div class="edit-post-link"&gt;', '&lt;/div&gt;'); ?&gt;</string>
+	<key>name</key>
+	<string>WP - Edit Post Link</string>
+	<key>tabTrigger</key>
+	<string>wpedit</string>
+	<key>uuid</key>
+	<string>F013D75C-D968-4B15-B8BB-EE1E8916F3E1</string>
+</dict>
+</plist>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>RewriteCond %{REMOTE_ADDR} !^$1\.$2\.$3\.$4</string>
+	<key>name</key>
+	<string>Htaccess - Allow IP</string>
+	<key>tabTrigger</key>
+	<string>hta</string>
+	<key>uuid</key>
+	<string>3BB44C14-462C-45BC-92D8-F819D104123B</string>
+</dict>
+</plist>

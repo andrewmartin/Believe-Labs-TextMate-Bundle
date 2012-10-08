@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php $date = DateTime::createFromFormat('Y_m_d', get_field('$1'));
+echo $date-&gt;format('d-m-Y'); ?&gt;</string>
+	<key>name</key>
+	<string>WP - Advanced Fields - the Date</string>
+	<key>tabTrigger</key>
+	<string>wpaf</string>
+	<key>uuid</key>
+	<string>F42697E8-7120-45E2-8FB0-6A4476F83103</string>
+</dict>
+</plist>

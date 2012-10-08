@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php echo do_shortcode('[gravityform id=${1:1} title=${2:false} description=${3:false} ajax=${4:true}]'); ?&gt;</string>
+	<key>name</key>
+	<string>WP - Gravity Form</string>
+	<key>tabTrigger</key>
+	<string>gravity</string>
+	<key>uuid</key>
+	<string>6B778FB4-13C5-4C76-98CD-ACB3A351F126</string>
+</dict>
+</plist>

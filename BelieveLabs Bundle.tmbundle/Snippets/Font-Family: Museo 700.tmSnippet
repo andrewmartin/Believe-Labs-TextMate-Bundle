@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>font-family: 'MuseoSlab700';</string>
+	<key>name</key>
+	<string>Font-Family: Museo 700</string>
+	<key>scope</key>
+	<string>source.css</string>
+	<key>tabTrigger</key>
+	<string>ff</string>
+	<key>uuid</key>
+	<string>6E944AA7-9083-4DE2-B2D7-AB79A63D96A3</string>
+</dict>
+</plist>

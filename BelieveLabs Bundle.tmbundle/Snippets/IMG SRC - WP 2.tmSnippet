@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;img src="&lt;?php bloginfo('stylesheet_directory'); ?&gt;/images/$1" alt="$2"&gt;</string>
+	<key>name</key>
+	<string>Img Src - WP Theme</string>
+	<key>scope</key>
+	<string>text.html</string>
+	<key>tabTrigger</key>
+	<string>img</string>
+	<key>uuid</key>
+	<string>3A78CEDA-9201-4150-BFA3-871EF38AB225</string>
+</dict>
+</plist>

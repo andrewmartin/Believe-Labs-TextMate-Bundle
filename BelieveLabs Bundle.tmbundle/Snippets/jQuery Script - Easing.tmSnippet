@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;script src="${1:&lt;?php bloginfo('stylesheet_directory'); ?&gt;/}scripts/lib/jquery.easing.1.3.js" type="text/javascript"&gt;&lt;/script&gt;</string>
+	<key>name</key>
+	<string>jQuery Script - Easing</string>
+	<key>uuid</key>
+	<string>7730B1FC-9B85-47BB-B158-1E60AC1887CA</string>
+</dict>
+</plist>

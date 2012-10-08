@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;ul class="social"&gt;
+&lt;li class="tw"&gt;&lt;a target="_blank" href="" title="Follow &lt;?php bloginfo('name'); ?&gt; on Twitter"&gt;&lt;?php bloginfo('name'); ?&gt; on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;li class="fb"&gt;&lt;a target="_blank" href="" title="Find &lt;?php bloginfo('name'); ?&gt; on Facebook"&gt;&lt;?php bloginfo('name'); ?&gt; on Facebook&lt;/a&gt;&lt;/li&gt;
+&lt;li class="yt"&gt;&lt;a target="_blank" href="" title="Find &lt;?php bloginfo('name'); ?&gt; on Youtube"&gt;&lt;?php bloginfo('name'); ?&gt; on Youtube&lt;/a&gt;&lt;/li&gt;
+&lt;li class="li"&gt;&lt;a target="_blank" href="" title="Find &lt;?php bloginfo('name'); ?&gt; on Youtube"&gt;&lt;?php bloginfo('name'); ?&gt; on LinkedIn&lt;/a&gt;&lt;/li&gt;
+&lt;li class="bl"&gt;&lt;a target="_blank" href="&lt;?php bloginfo('home'); ?&gt;/blog" title="Read the &lt;?php bloginfo('name'); ?&gt; Blog"&gt;Read the &lt;?php bloginfo('name'); ?&gt; Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li class="rss"&gt;&lt;a target="_blank" href="&lt;?php bloginfo('rss2_url'); ?&gt;" title="Subscribe to the &lt;?php bloginfo('name'); ?&gt; Feed"&gt;Subscribe to the &lt;?php bloginfo('name'); ?&gt; Feed&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</string>
+	<key>name</key>
+	<string>Social UL - No Custom</string>
+	<key>tabTrigger</key>
+	<string>social</string>
+	<key>uuid</key>
+	<string>B5ECDBB3-916E-4413-8C02-AF0CE146B2F2</string>
+</dict>
+</plist>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>update wp${3:_2}_posts set post_content = replace(post_content, '${1:source.com}', '${2:source.dev}');
+update wp$3_posts set guid = replace(guid, '$1', '$2');
+UPDATE wp$3_options SET option_value = REPLACE(option_value, '$1', '$2');
+UPDATE wp$3_postmeta SET meta_value = REPLACE(meta_value, '$1', '$2');</string>
+	<key>name</key>
+	<string>WP - MySQL Replace</string>
+	<key>tabTrigger</key>
+	<string>myrep</string>
+	<key>uuid</key>
+	<string>BDF9EC59-EEDA-479E-9BB4-F6E1A8DB4005</string>
+</dict>
+</plist>

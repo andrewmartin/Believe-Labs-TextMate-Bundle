@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>	/* =Cufon Styles
+------------------------------------------------------------ */
+
+.cufon-loading {
+	visibility: hidden !important;
+}</string>
+	<key>name</key>
+	<string>jQuery - cufon - loading hide</string>
+	<key>tabTrigger</key>
+	<string>cufon</string>
+	<key>uuid</key>
+	<string>C4CD005B-A2AF-4933-B1F7-9E36F327BB8F</string>
+</dict>
+</plist>

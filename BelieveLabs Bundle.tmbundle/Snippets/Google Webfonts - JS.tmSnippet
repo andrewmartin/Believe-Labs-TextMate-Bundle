@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;script type="text/javascript" src="https://www.google.com/jsapi"&gt;
+&lt;/script&gt;
+&lt;script type="text/javascript"&gt;
+  google.load("webfont", "1");
+
+  google.setOnLoadCallback(function() {
+    WebFont.load({
+      google: {
+        families: [ '${1:Rokkitt}' ]
+      }});
+  });
+&lt;/script&gt;</string>
+	<key>keyEquivalent</key>
+	<string>^~@g</string>
+	<key>name</key>
+	<string>Google Webfonts - JS</string>
+	<key>uuid</key>
+	<string>E0DAE1E4-1DE0-443B-8F04-8BF250FA89CD</string>
+</dict>
+</plist>

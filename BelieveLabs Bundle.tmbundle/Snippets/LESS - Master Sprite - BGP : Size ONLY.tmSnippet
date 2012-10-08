@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>background-position:$1;
+.size(${2:10}px,${3:103}px);</string>
+	<key>name</key>
+	<string>LESS - Master Sprite - BGP / Size ONLY</string>
+	<key>tabTrigger</key>
+	<string>ms</string>
+	<key>uuid</key>
+	<string>161F54F6-7F4F-4E6E-A59E-E16AE98D61F8</string>
+</dict>
+</plist>

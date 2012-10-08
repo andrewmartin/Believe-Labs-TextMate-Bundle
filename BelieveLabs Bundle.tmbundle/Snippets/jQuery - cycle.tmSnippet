@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$(${1:this}).children('div').before('&lt;div id="cycle-nav"&gt;&lt;/div&gt;').after('&lt;div class="cycle-paging"&gt;&lt;ul&gt;&lt;li class="prev"&gt;&lt;a&gt;Previous&lt;/a&gt;&lt;/li&gt;&lt;li class="next"&gt;&lt;a&gt;Next&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;').cycle({ 
+	fx:     '${2:fade}', 
+	speed:  '${3:fast}', 
+	timeout: ${4:3000}, 
+	prev: '${5:div.cycle-paging li.prev a}', 
+	next: '${6:div.cycle-paging li.next a}', 	
+	pager:  '${7:#cycle-nav}',
+	easing:  '${8:easeInOutCirc}',
+	pause:         1,      // true to enable "pause on hover"
+	pauseOnPagerHover: 1 // true to pause when hovering over pager link
+});</string>
+	<key>name</key>
+	<string>jQuery - cycle</string>
+	<key>tabTrigger</key>
+	<string>cycle</string>
+	<key>uuid</key>
+	<string>1E37D523-9C4D-41B5-81DE-4DC578E90D5A</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>font-family: 'News Cycle',"Helvetica Neue", Arial, Helvetica, sans-serif;</string>
+	<key>name</key>
+	<string>Font-Family: News Cycle</string>
+	<key>scope</key>
+	<string>source.css</string>
+	<key>tabTrigger</key>
+	<string>ff</string>
+	<key>uuid</key>
+	<string>715CF6AD-D48D-4078-8142-E40F801D46E9</string>
+</dict>
+</plist>

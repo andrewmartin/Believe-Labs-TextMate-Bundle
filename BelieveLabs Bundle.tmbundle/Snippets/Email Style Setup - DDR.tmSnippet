@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;style type="text/css"&gt;
+img {
+	display:block;
+	border:0 none;
+}
+
+td, p {
+	font-family:Helvetica,Arial,Sans-Serif;
+	font-size:13px;
+	line-height:17px;
+	color:#736357;
+	vertical-align:top;
+}
+
+a, a img {
+	border:0 none;
+}
+
+p#footer {
+	width:650px; 
+	font-size:11px;
+	line-height:15px;
+	text-align:center;
+}
+
+p#footer a {
+	color:#736357;
+	text-decoration:underline;
+}
+&lt;/style&gt;
+&lt;p id="footer"&gt;You are receiving this e-mail because you are a member of a Developers Diversified Realty list. &lt;br /&gt;&lt;unsubscribe&gt;Unsubscribe&lt;/unsubscribe&gt; to stop receiving these messages.&lt;/p&gt;</string>
+	<key>name</key>
+	<string>Email Style Setup - DDR</string>
+	<key>tabTrigger</key>
+	<string>esty</string>
+	<key>uuid</key>
+	<string>2D42FB05-A7F2-4D6D-A970-5B6381480A8D</string>
+</dict>
+</plist>

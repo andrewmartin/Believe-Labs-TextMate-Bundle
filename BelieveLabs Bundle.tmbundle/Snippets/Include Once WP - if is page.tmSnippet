@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php if (is_page('$1')) { require_once(get_stylesheet_directory() . '/includes/queries/$2.php'); } ?&gt;</string>
+	<key>keyEquivalent</key>
+	<string>^~@i</string>
+	<key>name</key>
+	<string>Include Once WP - if is page</string>
+	<key>uuid</key>
+	<string>D214D280-2A69-4A92-962A-E0B18A84FEF7</string>
+</dict>
+</plist>

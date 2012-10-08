@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;a href="http://maps.google.com/maps?oe=utf-8&amp;q=${1:Your Address Your City Your Query!}" title="View Map of $1"&gt;View Map&lt;/a&gt;</string>
+	<key>name</key>
+	<string>Google Maps - Link Query</string>
+	<key>tabTrigger</key>
+	<string>amap</string>
+	<key>uuid</key>
+	<string>3EB8A363-6969-49B3-B2EF-694A783505A6</string>
+</dict>
+</plist>

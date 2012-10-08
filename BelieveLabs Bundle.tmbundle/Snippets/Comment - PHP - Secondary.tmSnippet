@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>// =$1</string>
+	<key>name</key>
+	<string>Comment - PHP - Secondary</string>
+	<key>tabTrigger</key>
+	<string>com</string>
+	<key>uuid</key>
+	<string>75FF338D-D87F-4A4D-8D0D-AE472BD40BE7</string>
+</dict>
+</plist>

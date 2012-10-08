@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php
+\$${1:term_name} = get_the_terms(\$post-&gt;ID, '$1');
+if(\$$1) {
+// If $1 is present... ?&gt;
+&lt;${2:cite}&gt;${3:Tagged}: &lt;?php echo \$${1}; ?&gt;&lt;/$2&gt;
+&lt;?php } // end $3 query ?&gt;</string>
+	<key>name</key>
+	<string>WP - Get The Terms</string>
+	<key>tabTrigger</key>
+	<string>gtt</string>
+	<key>uuid</key>
+	<string>21AA0307-204E-440C-99B6-1A36CBC3974A</string>
+</dict>
+</plist>

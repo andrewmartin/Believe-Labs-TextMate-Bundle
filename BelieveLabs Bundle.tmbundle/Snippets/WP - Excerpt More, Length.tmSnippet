@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>function new_excerpt_more(\$more) {
+	global \$post;
+	return '${1:...&lt;span class="read-more"&gt;&lt;a href="'. get_permalink(\$post-&gt;ID) . '" &gt;read more&lt;/a&gt;&lt;/span&gt;}';
+}
+add_filter('excerpt_more', 'new_excerpt_more');
+
+function new_excerpt_length(\$length) {
+	return ${2:150};
+}
+add_filter('excerpt_length', 'new_excerpt_length');</string>
+	<key>name</key>
+	<string>WP - Excerpt More, Length</string>
+	<key>tabTrigger</key>
+	<string>wpex</string>
+	<key>uuid</key>
+	<string>98A1553D-761E-49B5-8593-D1D81F54A9F6</string>
+</dict>
+</plist>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$.stellar({
+  // Set scrolling to be in either one or both directions
+  horizontalScrolling: true,
+  verticalScrolling: true,
+
+  // Set the global alignment offsets
+  horizontalOffset: -${1:500},
+  verticalOffset: -${2:500},
+
+  // Select which property is used to calculate scroll.
+  // Choose 'scroll', 'position', 'margin' or 'transform',
+  // or write your own 'scrollProperty' plugin.
+  scrollProperty: 'position',
+
+  // Select which property is used to position elements.
+  // Choose between 'position' or 'transform',
+  // or write your own 'positionProperty' plugin.
+  positionProperty: 'position',
+
+  // Enable or disable the two types of parallax
+  parallaxBackgrounds: true,
+  parallaxElements: true,
+
+  // Hide parallax elements that move outside the viewport
+  hideDistantElements: true,
+
+  // Set how often the viewport size is detected
+  viewportDetectionInterval: 1000,
+
+  // Customize how elements are shown and hidden
+  hideElement: function(\$elem) { \$elem.hide(); },
+  showElement: function(\$elem) { \$elem.show(); }
+});</string>
+	<key>name</key>
+	<string>jquery - stellar setup</string>
+	<key>tabTrigger</key>
+	<string>st</string>
+	<key>uuid</key>
+	<string>52E04E9B-CE7C-4F47-A6A3-95C46E5AAACE</string>
+</dict>
+</plist>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php //GET IMAGES, EXPECT FIRST
+	\$args = array(
+	'order'          =&gt; 'ASC',
+	'orderby'        =&gt; 'menu_order',
+	'post_type'      =&gt; 'attachment',
+	'post_parent'    =&gt; \$post-&gt;ID,
+	'post_mime_type' =&gt; 'image',
+	'numberposts'    =&gt; 1,
+	);
+	\$attachments = get_posts(\$args);
+		if (\$attachments) {
+			foreach (\$attachments as \$attachment) { ?&gt;
+				&lt;?php \$img = wp_get_attachment_image_src(\$attachment-&gt;ID, '$1', false, false); ?&gt;
+			&lt;img class="$1" src="&lt;?php echo \$img[0]; ?&gt;" /&gt;
+		&lt;?php }
+	}	?&gt;</string>
+	<key>name</key>
+	<string>PHP Get Attachment Image</string>
+	<key>tabTrigger</key>
+	<string>gai</string>
+	<key>uuid</key>
+	<string>436CB479-FAA5-4E57-9008-E9E9B6EF4882</string>
+</dict>
+</plist>

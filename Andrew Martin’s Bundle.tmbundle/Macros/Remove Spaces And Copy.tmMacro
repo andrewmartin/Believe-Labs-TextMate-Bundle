@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>commands</key>
+	<array>
+		<dict>
+			<key>command</key>
+			<string>selectAll:</string>
+		</dict>
+		<dict>
+			<key>argument</key>
+			<dict>
+				<key>action</key>
+				<string>replaceAll</string>
+				<key>findInProjectIgnoreCase</key>
+				<true/>
+				<key>findInProjectRegularExpression</key>
+				<false/>
+				<key>findString</key>
+				<string>
+</string>
+				<key>ignoreCase</key>
+				<true/>
+				<key>regularExpression</key>
+				<false/>
+				<key>replaceAllScope</key>
+				<string>document</string>
+				<key>replaceString</key>
+				<string> </string>
+				<key>wrapAround</key>
+				<true/>
+			</dict>
+			<key>command</key>
+			<string>findWithOptions:</string>
+		</dict>
+		<dict>
+			<key>command</key>
+			<string>selectAll:</string>
+		</dict>
+		<dict>
+			<key>command</key>
+			<string>copy:</string>
+		</dict>
+	</array>
+	<key>keyEquivalent</key>
+	<string>^~@ </string>
+	<key>name</key>
+	<string>Remove Spaces And Copy</string>
+	<key>uuid</key>
+	<string>A6C9A68B-09EF-4588-96F2-92496A55F9AC</string>
+</dict>
+</plist>

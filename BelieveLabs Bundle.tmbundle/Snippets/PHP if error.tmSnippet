@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string> &lt;?php if(\$errors['$1']) { ?&gt; class="error" &lt;?php } ?&gt;" </string>
+	<key>name</key>
+	<string>PHP if error</string>
+	<key>tabTrigger</key>
+	<string>ife</string>
+	<key>uuid</key>
+	<string>4DE0CDF0-FA80-4956-8E25-130CFD25EFF8</string>
+</dict>
+</plist>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>require_once(get_stylesheet_directory() . '/includes/queries/$2.php');</string>
+	<key>keyEquivalent</key>
+	<string>^~@i</string>
+	<key>name</key>
+	<string>Include Once WP</string>
+	<key>uuid</key>
+	<string>A45FABCC-B0AF-4094-B6C5-25EB9243AC8A</string>
+</dict>
+</plist>

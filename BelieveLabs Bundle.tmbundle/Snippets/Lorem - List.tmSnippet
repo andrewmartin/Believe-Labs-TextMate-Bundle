@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;ul&gt;
+	&lt;li&gt;Lorem ipsum dolor sit amet. &lt;/li&gt;
+	&lt;li&gt;Consectetur adipisicing elit. &lt;/li&gt;
+	&lt;li&gt;Sed do eiusmod tempor incididunt. &lt;/li&gt;
+	&lt;li&gt;Labore et dolore magna aliqua. &lt;/li&gt;
+	&lt;li&gt;Ut enim ad minim veniam. &lt;/li&gt;
+	&lt;li&gt;Quis nostrud exercitation ullamco laboris. &lt;/li&gt;
+	&lt;li&gt;Nisi ut aliquip ex ea commodo consequat. &lt;/li&gt;
+	&lt;li&gt;Excepteur sint occaecat cupidatat.&lt;/li&gt;
+	&lt;li&gt;Non proident, sunt in culpa.&lt;/li&gt;
+&lt;/ul&gt;</string>
+	<key>name</key>
+	<string>Lorem - List</string>
+	<key>tabTrigger</key>
+	<string>lor</string>
+	<key>uuid</key>
+	<string>E0AA3BB5-73E4-46E6-AC0C-5086D762B636</string>
+</dict>
+</plist>

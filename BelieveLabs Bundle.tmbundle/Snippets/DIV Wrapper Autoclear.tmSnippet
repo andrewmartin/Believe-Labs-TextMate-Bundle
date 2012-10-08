@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;div class="${1:wrapper} ${2:autoclear}"&gt;$TM_SELECTED_TEXT&lt;/div&gt;
+</string>
+	<key>keyEquivalent</key>
+	<string>^D</string>
+	<key>name</key>
+	<string>Wrap Selection in Div Wrapper Autoclear</string>
+	<key>uuid</key>
+	<string>45819F52-BAC8-4D61-A404-9085CF9AE6BE</string>
+</dict>
+</plist>

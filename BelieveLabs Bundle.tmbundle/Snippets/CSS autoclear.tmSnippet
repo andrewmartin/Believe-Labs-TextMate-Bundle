@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.autoclear:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.autoclear { display: inline-block; }
+.autoclear { display: block; }</string>
+	<key>name</key>
+	<string>CSS autoclear</string>
+	<key>tabTrigger</key>
+	<string>ac</string>
+	<key>uuid</key>
+	<string>BD5236DB-175F-46D6-8C44-C3CE6A02D0F1</string>
+</dict>
+</plist>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;ul&gt;
+&lt;?php foreach(get_field('$1') as $post_object): ?&gt;
+	&lt;li&gt;&lt;a href="&lt;?php echo get_permalink($post_object-&gt;ID); ?&gt;"&gt;&lt;?php echo get_the_title($post_object-&gt;ID) ?&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;?php endforeach; ?&gt;
+&lt;/ul&gt;</string>
+	<key>name</key>
+	<string>WP - Advanced Fields - the post Object</string>
+	<key>tabTrigger</key>
+	<string>wpaf</string>
+	<key>uuid</key>
+	<string>DB44CD89-D6D4-4433-88B2-07E304811EB5</string>
+</dict>
+</plist>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>#!/bin/bash
+echo "*** Pulling hub's changes into prime ***"
+ 
+cd /home/${1:believec}${2:/public_html} || exit
+unset GIT_DIR
+git pull origin master
+chown -R $1:$1 *</string>
+	<key>name</key>
+	<string>Git - Pull Automatically (Place on Site Hub)</string>
+	<key>tabTrigger</key>
+	<string>githook</string>
+	<key>uuid</key>
+	<string>3A32C2EB-8938-4CCF-BD2B-B222FAA566A6</string>
+</dict>
+</plist>

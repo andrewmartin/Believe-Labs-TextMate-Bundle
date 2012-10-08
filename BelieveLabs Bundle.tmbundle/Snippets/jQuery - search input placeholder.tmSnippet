@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>value="${1:Search…}" onclick="if(this.value=='${1:Search…}'){this.value=''}" onblur="if(this.value==''){this.value='${1:Search…}'}"</string>
+	<key>name</key>
+	<string>jQuery - search input placeholder</string>
+	<key>tabTrigger</key>
+	<string>search</string>
+	<key>uuid</key>
+	<string>02802882-3B34-4FC7-B97A-5BDE2BC35216</string>
+</dict>
+</plist>

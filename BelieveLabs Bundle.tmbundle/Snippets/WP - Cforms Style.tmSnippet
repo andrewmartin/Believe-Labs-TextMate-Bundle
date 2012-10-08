@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>/* =Cforms
+------------------------------------------------------------ */
+
+.cform ol {
+	list-style-type:none;
+}
+
+.cform ol li {
+	display:block;
+    line-height: 1em;
+	margin:0 0 5px 0;
+}
+
+.cform legend {
+	font-size:18px;
+	margin:15px 0 0;
+	padding:15px 10px 0 0;
+}
+
+.cform fieldset {
+	border:0 none;
+}
+
+.cform label { 
+	display:block;
+	font-size:12px;
+	padding:0 0 3px 0;
+	line-height:16px;
+}
+
+.cform input.single,
+.cform textarea {
+	border:1px solid #A29F99;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	width:220px;
+	color:#2c2c2c;
+	background:transparent url(../images/layout/global/input-tile.png) no-repeat scroll 0px 0px;
+	padding:5px;
+	font-size:12px;
+	line-height:16px;
+}
+
+.cform input.single:focus,
+.cform textarea:focus {
+	color:#FFF;
+	border:1px solid #2c2c2c;
+	background:transparent url(../images/layout/global/input-tile.png) no-repeat scroll -400px 0px;
+}
+.cform select {
+	padding-top:5px;
+}
+.cform option {
+	font-family:'Lucida Sans','Trebuchet MS',Helvetica, Arial, Sans-Serif;
+	padding:5px;
+}
+
+.cform span.emailreqtxt,
+.cform span.reqtxt {
+	display:block;
+	font-style:italic;
+	color:#C52C35;
+	font-size:11px;
+}
+
+.linklove, p#ll, .cf_hidden { display:none; }</string>
+	<key>name</key>
+	<string>WP - Cforms Style</string>
+	<key>tabTrigger</key>
+	<string>cforms</string>
+	<key>uuid</key>
+	<string>720CAE8D-CF5F-4840-BF52-73B3400304C5</string>
+</dict>
+</plist>

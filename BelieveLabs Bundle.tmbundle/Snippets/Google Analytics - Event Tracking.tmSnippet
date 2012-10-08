@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>onClick="_gaq.push(['_trackEvent', '${1:category}', '${2:action}', '${3:label}']);" </string>
+	<key>keyEquivalent</key>
+	<string>^~@g</string>
+	<key>name</key>
+	<string>Google Analytics - Event Tracking</string>
+	<key>uuid</key>
+	<string>78ED10FA-6C1E-4530-A1A4-95FAABE6B5BC</string>
+</dict>
+</plist>

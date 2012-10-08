@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.spot-box.size-${1:670}x${2:330} {
+  .size-border${3:-responsive}($1px, $2px);
+}</string>
+	<key>name</key>
+	<string>LESS - Spotbox (AIM) - CSS</string>
+	<key>tabTrigger</key>
+	<string>spotbox</string>
+	<key>uuid</key>
+	<string>F1886656-85BE-4F9D-96A4-355EDFC2A93C</string>
+</dict>
+</plist>

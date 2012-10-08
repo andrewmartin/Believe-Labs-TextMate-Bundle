@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php
+	\$image_id = get_${1:sub_}field('${2:image_upload}');
+	\$image_src = wp_get_attachment_image_src( \$image_id, '${3:small-thumb}');
+	\$image_full = wp_get_attachment_image_src( \$image_id, 'full');
+?&gt;
+&lt;?php echo '&lt;a class="fancybox" href="'. \$image_full[0] . '"&gt;&lt;img width="' . \$image_src[1] .'" height="'. \$image_src[2] . '" src="' . \$image_src[0] . '" /&gt;&lt;/a&gt;'; ?&gt;</string>
+	<key>name</key>
+	<string>WP - Advanced Fields - the attachment image - Link to Full</string>
+	<key>tabTrigger</key>
+	<string>wpaf</string>
+	<key>uuid</key>
+	<string>E97D0003-FA6F-4557-A629-939D4FAD0EA7</string>
+</dict>
+</plist>

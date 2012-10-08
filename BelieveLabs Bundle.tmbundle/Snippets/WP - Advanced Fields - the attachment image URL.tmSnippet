@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php
+	\$image_src = wp_get_attachment_image_src( get${1:_sub}_field('${2:field_name}'), '${3:default-thumb}');
+?&gt;
+&lt;?php echo '&lt;img width="' . \$image_src[1] .'" height="'. \$image_src[2] . '" src="' . \$image_src[0] . '" /&gt;'; ?&gt;</string>
+	<key>name</key>
+	<string>WP - Advanced Fields - the attachment image URL</string>
+	<key>tabTrigger</key>
+	<string>wpaf</string>
+	<key>uuid</key>
+	<string>68F43894-BC51-4A77-A256-2E4B4FABE200</string>
+</dict>
+</plist>

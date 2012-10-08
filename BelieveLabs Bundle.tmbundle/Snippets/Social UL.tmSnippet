@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;ul class="social"&gt;
+&lt;li class="facebook"&gt;&lt;a href="&lt;?php the_field('facebook_url','options'); ?&gt;" title="Find &lt;?php bloginfo('name'); ?&gt; on Facebook"&gt;Find &lt;?php bloginfo('name'); ?&gt; on Facebook&lt;/a&gt;&lt;/li&gt;
+&lt;li class="twitter"&gt;&lt;a href="&lt;?php the_field('twitter_url','options'); ?&gt;" title="Follow &lt;?php bloginfo('name'); ?&gt; on Twitter"&gt;Follow &lt;?php bloginfo('name'); ?&gt; on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;li class="linkedin"&gt;&lt;a href="&lt;?php the_field('linkedin_url','options'); ?&gt;" title="Connect with &lt;?php bloginfo('name'); ?&gt; on LinkedIn"&gt;Connect with &lt;?php bloginfo('name'); ?&gt; on LinkedIn&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</string>
+	<key>name</key>
+	<string>Social UL</string>
+	<key>tabTrigger</key>
+	<string>social</string>
+	<key>uuid</key>
+	<string>E448AF28-D27B-44FA-AAFE-C5B08EDBA652</string>
+</dict>
+</plist>

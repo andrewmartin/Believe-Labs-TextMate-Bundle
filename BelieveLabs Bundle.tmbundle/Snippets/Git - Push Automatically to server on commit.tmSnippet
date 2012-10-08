@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>#!/bin/bash
+ 
+echo "*** Push prime changes to hub ***"
+ 
+git push origin</string>
+	<key>name</key>
+	<string>Git - Push Automatically to server on commit</string>
+	<key>tabTrigger</key>
+	<string>githook</string>
+	<key>uuid</key>
+	<string>4F266685-0603-46FC-947C-EF2AD4703D88</string>
+</dict>
+</plist>

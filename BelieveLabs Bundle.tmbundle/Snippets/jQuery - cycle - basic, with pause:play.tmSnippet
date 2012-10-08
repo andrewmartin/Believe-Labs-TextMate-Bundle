@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$('#${1:slider}').after('&lt;div id="$1-paging" class="cycle-paging"&gt;&lt;ul&gt;&lt;li class="cycle-prev"&gt;&lt;a&gt;Previous&lt;/a&gt;&lt;/li&gt;&lt;li class="cycle-pause"&gt;&lt;a&gt;Pause&lt;/a&gt;&lt;/li&gt;&lt;li class="cycle-next"&gt;&lt;a&gt;Next&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div id="$1-nav" class="cycle-nav" /&gt;').cycle({ 
+	fx:     'scrollHorz', 
+	speed:  'fast', 
+	timeout: 3000, 
+	pager: '#$1-nav', 
+	prev: 'div#$1-paging li.cycle-prev a', 
+	next: 'div#$1-paging li.cycle-next a', 	
+	pause:         1,      // true to enable "pause on hover"
+	pauseOnPagerHover: 1 // true to pause when hovering over pager link
+});
+
+\$('div#$1-paging li.cycle-pause').click(function() { 
+    \$('$1').cycle('pause'); 
+});
+
+\$('div#$1-paging li.cycle-prev a, div#$1-paging li.cycle-next a').click(function() {
+	\$('$1').cycle('resume');
+});</string>
+	<key>name</key>
+	<string>jQuery - cycle - basic, with pause/play</string>
+	<key>tabTrigger</key>
+	<string>cycle</string>
+	<key>uuid</key>
+	<string>D0BB24DB-44B3-408A-BB0B-DF84E0DF481D</string>
+</dict>
+</plist>

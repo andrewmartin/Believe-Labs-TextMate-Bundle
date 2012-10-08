@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;script src="&lt;? bloginfo('stylesheet_directory'); ?&gt;/scripts/lib/$1.js" type="text/javascript"&gt;&lt;/script&gt;</string>
+	<key>name</key>
+	<string>Script Src - WP</string>
+	<key>tabTrigger</key>
+	<string>scr</string>
+	<key>uuid</key>
+	<string>C17E5CD4-35C3-488A-9B5C-B9234412B3FD</string>
+</dict>
+</plist>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?
+$type = '';
+$key="sidebar_content"; 
+$has_sidebar_content = get_post_meta($post-&gt;ID, $key, true);
+?&gt;
+&lt;? if ($has_sidebar_content) { $sidebar = 'has-sidebar'; } else { $sidebar = 'no-sidebar'; } ?&gt;
+&lt;body id="sub" &lt;?php body_class($post-&gt;post_name .=' '.$sidebar); ?&gt;&gt;</string>
+	<key>name</key>
+	<string>WP - Body Conditional (Has Sidebar)</string>
+	<key>tabTrigger</key>
+	<string>wpb</string>
+	<key>uuid</key>
+	<string>2DDEDA13-00CC-4D3C-9267-F8B0193AF0E5</string>
+</dict>
+</plist>

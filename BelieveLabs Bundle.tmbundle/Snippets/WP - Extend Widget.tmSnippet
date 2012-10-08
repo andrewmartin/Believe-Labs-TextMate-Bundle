@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>class ${1:widget_class} extends WP_Widget {
+	function ${1}() {
+		\$widget_ops = array(
+			'classname' =&gt; '${2:css-class}', 
+			'description' =&gt; __('${3:friendly description}')
+		);
+		
+		\$this-&gt;WP_Widget('id_$1', __('${5:$1 Widget}'), \$widget_ops);
+	}
+	
+	function widget(\$args, \$instance) {
+		?&gt;
+		&lt;!-- $1 widget --&gt;
+		${6:widget_html}
+		&lt;?php
+	}
+}
+add_action('widgets_init', create_function('', "register_widget('${1}');"));</string>
+	<key>keyEquivalent</key>
+	<string>^@w</string>
+	<key>name</key>
+	<string>WP - Extend Widget</string>
+	<key>tabTrigger</key>
+	<string>wpwidget</string>
+	<key>uuid</key>
+	<string>5D6B73BF-52EC-43D4-BF25-4D1912A8238B</string>
+</dict>
+</plist>

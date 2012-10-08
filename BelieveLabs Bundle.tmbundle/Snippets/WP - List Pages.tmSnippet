@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php \$args = array(
+	'depth'        =&gt; 0,
+	'show_date'    =&gt; '',
+	'date_format'  =&gt; get_option('date_format'),
+	'child_of'     =&gt; 0,
+	'exclude'      =&gt; '',
+	'include'      =&gt; '',
+	'title_li'     =&gt; __('Pages'),
+	'echo'         =&gt; 1,
+	'authors'      =&gt; '',
+	'sort_column'  =&gt; 'menu_order, post_title',
+	'link_before'  =&gt; '',
+	'link_after'   =&gt; '',
+	'walker' =&gt; '' 
+	); 
+?&gt;
+&lt;ul&gt;&lt;?php wp_list_pages(\$args); ?&gt;&lt;/ul&gt;</string>
+	<key>name</key>
+	<string>WP - List Pages</string>
+	<key>tabTrigger</key>
+	<string>wplp</string>
+	<key>uuid</key>
+	<string>9CAD6C20-E7DA-4B46-9296-364E82A3798B</string>
+</dict>
+</plist>

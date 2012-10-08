@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php 
+\$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+\$$1args = array(
+'paged' =&gt; \$paged,
+'p' =&gt; 1,
+'posts_per_page' =&gt; 1,
+'post__in' =&gt; array(5,12,2,14,7),
+'post__not_in' =&gt; array(6,2,8),
+'cat' =&gt; '3,2,1',
+'category_name' =&gt; 'Uncategorized', 
+'meta_key' =&gt; 'keyname',
+'meta_value' =&gt; 'keyvalue',
+'orderby' =&gt; 'meta_value_num',
+'orderby' =&gt; 'date', // author, date, title, modified, parent, ID, rand, meta_value
+'order' =&gt; 'DESC', // ASC, DESC
+'post_status' =&gt; 'publish', // publish, pending, draft, future
+'post_type' =&gt; array( 'post' )
+);
+\$$1customWP = new WP_Query();
+\$$1customWP-&gt;query(\$$1args);
+while (\$$1customWP-&gt;have_posts()) : \$$1customWP-&gt;the_post(); ?&gt;
+$2
+&lt;?php endwhile; wp_reset_query(); ?&gt;</string>
+	<key>name</key>
+	<string>WP - Query Posts</string>
+	<key>tabTrigger</key>
+	<string>wpq</string>
+	<key>uuid</key>
+	<string>365E967A-7E16-42E9-B598-2BD9F9DE305C</string>
+</dict>
+</plist>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.modal .gform_body ul {
+  margin:0;
+  padding:0;
+}
+
+.modal .gform_body ul li {
+  list-style:none;
+  padding:0;
+}
+
+.modal .gform_body ul li .ginput_container input[type="text"],
+.modal .gform_body ul li .ginput_container textarea,
+.modal .gform_body ul li .gfield_captcha_input_container input {
+  padding:10px;
+  color:#453526;
+  font-size:16px;
+  background:#ddd;
+  -moz-box-shadow:2px 3px 5px 0px rgba(0,0,0,0.25);
+  -webkit-box-shadow:3px 3px 5px 0px rgba(0,0,0,0.25);
+  box-shadow:2px 2px 5px 0px rgba(0,0,0,0.25);
+}
+
+.modal .gform_body ul li .ginput_container input[type="text"]:focus,
+.modal .gform_body ul li .ginput_container textarea:focus,
+.modal .gform_body ul li .gfield_captcha_input_container input:focus {
+  background:#333;
+  color:#fff;
+}
+
+.modal .gform_wrapper .gfield_captcha_container img.gfield_captcha {
+  margin:0 0 10px 0; 
+}
+
+.modal .gform_wrapper .gform_footer {
+  padding:10px 0 0 0;
+  margin:0;
+}
+
+.modal .gform_wrapper ul li label {
+  color:#a70e13;
+}
+
+.modal .gform_footer input.button.gform_button {
+  background:#a70e13;
+  color:#FFF;
+  float:left;
+  margin:10px 0 0;
+  border:0;
+  padding:5px;
+  font-size:18px;
+  font-weight:bold;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow:2px 3px 5px 0px rgba(0,0,0,0.25);
+  -webkit-box-shadow:3px 3px 5px 0px rgba(0,0,0,0.25);
+  box-shadow:2px 2px 5px 0px rgba(0,0,0,0.25);
+}
+
+.modal .gform_footer input.button.gform_button:hover {
+  background:#999;
+  color:#fff;
+  cursor:pointer;
+}</string>
+	<key>name</key>
+	<string>WP - Gravity Form CSS</string>
+	<key>tabTrigger</key>
+	<string>gravity</string>
+	<key>uuid</key>
+	<string>DAED4C76-FE63-4AC0-A2F0-3E372D93157A</string>
+</dict>
+</plist>

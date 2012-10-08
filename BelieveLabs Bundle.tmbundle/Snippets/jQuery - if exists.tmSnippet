@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>if (\$('${1:selector}').exists()) {
+    ${2:// Do something}
+}</string>
+	<key>name</key>
+	<string>jQuery - if exists</string>
+	<key>tabTrigger</key>
+	<string>jqex</string>
+	<key>uuid</key>
+	<string>EA7EADC7-8AEE-4235-B5A2-6DFC39169745</string>
+</dict>
+</plist>

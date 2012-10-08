@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;label for="${1:name}"&gt;$2&lt;/label&gt;
+[${3:text} $1 id:$1 class:$3]
+
+&lt;strong&gt;$2&lt;/strong&gt;: &lt;span&gt;[$1]&lt;/span&gt;</string>
+	<key>name</key>
+	<string>Contact Form 7 - Text</string>
+	<key>tabTrigger</key>
+	<string>cf</string>
+	<key>uuid</key>
+	<string>3F511AEA-F246-4CD4-847D-4C3FB5806792</string>
+</dict>
+</plist>

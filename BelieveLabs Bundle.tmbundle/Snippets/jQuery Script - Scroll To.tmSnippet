@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$.scrollTo( '${1:#target-examples}', ${2:fxs}, {easing:${3:'elasout'}} );</string>
+	<key>name</key>
+	<string>jQuery Script - Scroll To</string>
+	<key>tabTrigger</key>
+	<string>scrollto</string>
+	<key>uuid</key>
+	<string>F248905C-980E-4584-A000-27D286BD405C</string>
+</dict>
+</plist>

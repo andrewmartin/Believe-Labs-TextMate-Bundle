@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>if (\$('.cycle').length) {
+	\$('.cycle').each(function(index) {
+		var numslides = \$(this).find('li').size();
+
+		\$(this).after('&lt;div class="cycle-nav" id="cycle-index-' + index + '"&gt;&lt;/div&gt;').cycle({ 
+			fx:     'fade', 
+			speed:  'fast', 
+			timeout: 5000, 
+			pager:  '#cycle-index-'+ index,
+			easing:  'easeInOutCirc',
+			startingSlide: Math.floor(Math.random()*numslides),
+			pause:         1,      // true to enable "pause on hover"
+			pauseOnPagerHover: 1 // true to pause when hovering over pager link
+		});
+	});
+};</string>
+	<key>name</key>
+	<string>jQuery - cycle - each - with random starting slide</string>
+	<key>tabTrigger</key>
+	<string>cycle</string>
+	<key>uuid</key>
+	<string>DD42AF2A-3262-4F91-84D8-3FD3279103E2</string>
+</dict>
+</plist>

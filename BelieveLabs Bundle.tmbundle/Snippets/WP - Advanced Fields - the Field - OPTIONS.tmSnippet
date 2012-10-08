@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php the_field('$1', 'options'); ?&gt;</string>
+	<key>name</key>
+	<string>WP - Advanced Fields - the Field - OPTIONS</string>
+	<key>tabTrigger</key>
+	<string>wpaf</string>
+	<key>uuid</key>
+	<string>D6672099-AE0A-4C36-9936-5335FFD45C9E</string>
+</dict>
+</plist>

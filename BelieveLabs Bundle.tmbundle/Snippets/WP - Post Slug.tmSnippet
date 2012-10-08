@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php echo \$post-&gt;post_name; ?&gt;</string>
+	<key>name</key>
+	<string>WP - Post Slug</string>
+	<key>tabTrigger</key>
+	<string>wpsl</string>
+	<key>uuid</key>
+	<string>9351393B-B92F-4D9C-9C18-7D470D1F320A</string>
+</dict>
+</plist>

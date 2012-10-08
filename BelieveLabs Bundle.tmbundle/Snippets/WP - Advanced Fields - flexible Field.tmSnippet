@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php while(the_flexible_field("resources")): ?&gt;
+ 
+	&lt;?php if(get_row_layout() == "header"): // layout: Content ?&gt;
+ 
+	&lt;h1&gt;&lt;?php the_sub_field("title"); ?&gt;&lt;/h1&gt;
+ 
+	&lt;?php elseif(get_row_layout() == "file"): // layout: File ?&gt;
+ 
+		&lt;div class="download"&gt;
+			&lt;a href="&lt;?php the_sub_field("file"); ?&gt;" &gt;&lt;?php the_sub_field("name"); ?&gt;&lt;/a&gt;
+		&lt;/div&gt;
+ 
+	&lt;?php elseif(get_row_layout() == "featured_posts"): // layout: Featured Posts ?&gt;
+ 
+		&lt;div class="featured-posts"&gt;
+			&lt;h2&gt;&lt;?php the_sub_field("title"); ?&gt;&lt;/h2&gt;
+			&lt;?php the_sub_field("content"); ?&gt;
+ 
+			&lt;?php if(get_sub_field("posts")): ?&gt;
+				&lt;ul class="post-list"&gt;
+				&lt;?php foreach(get_sub_field("posts") as $p): ?&gt;
+					&lt;li&gt;&lt;a href="&lt;?php echo get_permalink($p-&gt;ID); ?&gt;"&gt;&lt;?php echo get_the_title($p-&gt;ID); ?&gt;&lt;/a&gt;&lt;/li&gt;
+				&lt;?php endforeach; ?&gt;
+				&lt;/ul&gt;
+			&lt;?php endif; ?&gt;
+ 
+		&lt;/div&gt;
+ 
+	&lt;?php endif; ?&gt;
+ 
+&lt;?php endwhile; ?&gt;</string>
+	<key>name</key>
+	<string>WP - Advanced Fields - flexible Field</string>
+	<key>tabTrigger</key>
+	<string>wpaf</string>
+	<key>uuid</key>
+	<string>DC26AACA-3ECC-4336-823A-D1D8FDEE4DD3</string>
+</dict>
+</plist>

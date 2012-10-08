@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php 
+
+define('DB_NAME', 'sbacomplete');
+
+/** MySQL database username */
+define('DB_USER', 'root');
+
+/** MySQL database password */
+define('DB_PASSWORD', 'local');
+
+/** MySQL hostname */
+define('DB_HOST', 'localhost');
+
+define('WP_HOME', 'http://sbacomplete.dev');
+define('WP_SITEURL', 'http://sbacomplete.dev');
+
+// PLACE IN WP CONFIG
+
+// @include dirname(__FILE__).'/wp-config-local.php';
+
+// LIVE DATABASE INFORMATION
+// if(!defined('DB_NAME')) define('DB_NAME', 'cohnweb_getgooddrinks');
+
+// /** MySQL database username */
+// if(!defined('DB_USER')) define('DB_USER', 'cohnweb_cm');
+// 
+// /** MySQL database password */
+// if(!defined('DB_PASSWORD')) define('DB_PASSWORD', 'rIHdsL*_DB{H');
+// 
+// /** MySQL hostname */
+// if(!defined('DB_HOST')) define('DB_HOST', 'localhost');
+// 
+// /** Database Charset to use in creating database tables. */
+// if(!defined('DB_CHARSET')) define('DB_CHARSET', 'utf8');
+// 
+// /** The Database Collate type. Don't change this if in doubt. */
+// if(!defined('DB_COLLATE')) define('DB_COLLATE', '');
+
+?&gt;</string>
+	<key>name</key>
+	<string>wp config</string>
+	<key>tabTrigger</key>
+	<string>wpconfig</string>
+	<key>uuid</key>
+	<string>20355FA9-6D02-416F-B910-EE66832B1AAF</string>
+</dict>
+</plist>

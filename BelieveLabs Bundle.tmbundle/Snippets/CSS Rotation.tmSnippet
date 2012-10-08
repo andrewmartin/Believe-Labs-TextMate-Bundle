@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-webkit-transform: rotate($1deg);
+-moz-transform: rotate($1deg);
+-ms-transform: rotate($1deg);
+-o-transform: rotate($1deg);
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=${2:0,1,2,3});</string>
+	<key>name</key>
+	<string>CSS Rotation</string>
+	<key>tabTrigger</key>
+	<string>rot</string>
+	<key>uuid</key>
+	<string>CA07E907-691F-48B1-8201-1B11312838D4</string>
+</dict>
+</plist>

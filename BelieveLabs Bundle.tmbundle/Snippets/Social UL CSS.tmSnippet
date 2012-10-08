@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>	/* =Social Sprites
+------------------------------------------------------------ */
+
+ul.social li {
+	float:left;
+}
+
+ul.social li a {
+	width:$1px;
+	height:$2px;
+	display:block;
+	background:transparent url(${3:../images/icons/social-sprites.png}) no-repeat scroll 0px 0px;
+	text-indent:-9999px;
+	cursor:pointer;
+}
+
+ul.social li.facebook a {
+	background-position:$4 0;
+}
+
+ul.social li.facebook a:hover {
+	background-position:$4 $5;
+}
+
+ul.social li.twitter a {
+	background-position:$6 $7;
+}
+
+ul.social li.twitter a:hover {
+	background-position:$6 $8;
+}
+
+ul.social li.linkedin a {
+	background-position:$9 $10;
+}
+
+ul.social li.linkedin a:hover {
+	background-position:$9 $11;
+}</string>
+	<key>name</key>
+	<string>Social UL CSS</string>
+	<key>tabTrigger</key>
+	<string>social</string>
+	<key>uuid</key>
+	<string>80443495-CD15-4C3D-BC73-0EFF69A3E4A9</string>
+</dict>
+</plist>

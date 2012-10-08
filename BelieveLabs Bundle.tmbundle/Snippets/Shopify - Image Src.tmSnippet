@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;img src="{{ '$1' | asset_url }}" ${2:class="$3"} /&gt;</string>
+	<key>name</key>
+	<string>Shopify - Image Src</string>
+	<key>tabTrigger</key>
+	<string>simg</string>
+	<key>uuid</key>
+	<string>E4565AE6-78D4-4060-99F4-07A918D29F35</string>
+</dict>
+</plist>

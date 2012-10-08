@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;img src="@Url.Content("~/Content/images/${1:path/to/image.jpg}")" alt="${2:GODIGEX: Global Online Digital Exchange}" /&gt;</string>
+	<key>name</key>
+	<string>TEMP - image - Godigex</string>
+	<key>tabTrigger</key>
+	<string>imggo</string>
+	<key>uuid</key>
+	<string>D933FC55-8251-4FC0-964A-BAC5E414BF06</string>
+</dict>
+</plist>

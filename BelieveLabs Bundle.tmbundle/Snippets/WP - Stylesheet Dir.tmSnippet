@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php bloginfo('stylesheet_directory'); ?&gt;</string>
+	<key>keyEquivalent</key>
+	<string>^@w</string>
+	<key>name</key>
+	<string>WP - Stylesheet Dir</string>
+	<key>tabTrigger</key>
+	<string>wpsty</string>
+	<key>uuid</key>
+	<string>0099EFD8-235A-4F92-A104-AECBE4EA0A22</string>
+</dict>
+</plist>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php \$args = array(
+'theme_location'  =&gt; 'sidebar-projects',
+'menu'            =&gt; , 
+'container'       =&gt; 'div', 
+'container_class' =&gt; 'menu-{menu slug}-container menu', 
+'container_id'    =&gt; ,
+'menu_class'      =&gt; 'subnav', 
+'menu_id'         =&gt; ,
+'echo'            =&gt; true,
+'fallback_cb'     =&gt; 'wp_page_menu',
+'before'          =&gt; ,
+'after'           =&gt; ,
+'link_before'     =&gt; ,
+'link_after'      =&gt; ,
+'items_wrap'      =&gt; '&lt;ul id=\"%1\" class=\"%2\"&gt;%3&lt;/ul&gt;',
+'depth'           =&gt; 0,
+'walker'          =&gt; 
+);
+?&gt;
+&lt;?php wp_nav_menu(\$args); ?&gt;</string>
+	<key>name</key>
+	<string>WP - Wp Nav Menu</string>
+	<key>tabTrigger</key>
+	<string>wpnav</string>
+	<key>uuid</key>
+	<string>5C06168D-1742-4E81-9AE9-E101C5972C22</string>
+</dict>
+</plist>

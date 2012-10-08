@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;div class="size-${1:670x330} spot-box"&gt;&lt;div class="inner"&gt;
+	&lt;h3&gt;$1&lt;small&gt;${2:marquis image slider}&lt;/small&gt;&lt;/h3&gt;
+&lt;/div&gt;&lt;/div&gt;</string>
+	<key>name</key>
+	<string>LESS - spot box (AIM)</string>
+	<key>tabTrigger</key>
+	<string>spotbox</string>
+	<key>uuid</key>
+	<string>00E93C64-5DDF-4CA2-8CED-A628E45CD567</string>
+</dict>
+</plist>

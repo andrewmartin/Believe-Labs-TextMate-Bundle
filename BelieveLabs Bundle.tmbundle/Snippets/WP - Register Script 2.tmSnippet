@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>wp_deregister_script( '${1:cycle}' );
+wp_register_script( 
+'${1:cycle}', 
+get_bloginfo('stylesheet_directory') . '/scripts/lib/${2:jquery.cycle.all.min.js}',
+array('jquery'),
+'${3:1.0}');
+wp_enqueue_script( '$1' );</string>
+	<key>name</key>
+	<string>WP - Register Script</string>
+	<key>tabTrigger</key>
+	<string>wpregscr</string>
+	<key>uuid</key>
+	<string>960A6AB9-8ED8-450B-90F9-C7A0A90932FE</string>
+</dict>
+</plist>

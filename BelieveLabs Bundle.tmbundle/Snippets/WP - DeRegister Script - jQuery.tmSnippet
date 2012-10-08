@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>if (!is_admin()) {
+	// We're calling jQuery on the header template separately, thanks.
+	wp_deregister_script( 'jquery' );
+}</string>
+	<key>name</key>
+	<string>WP - DeRegister Script - jQuery</string>
+	<key>tabTrigger</key>
+	<string>wpregscr</string>
+	<key>uuid</key>
+	<string>3AAF22E0-0D54-4C04-94E7-A9289B17893A</string>
+</dict>
+</plist>

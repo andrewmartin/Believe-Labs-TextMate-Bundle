@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>require "coyote/rake"
+require 'rb-fsevent'
+
+multitask :watch =&gt; ['js:watch','css:watch']
+multitask :watchprod =&gt; ['js_min:watch','css_min:watch']
+
+namespace :js do
+  coyote do |config|
+    config.input = "wp-content/themes/${1:believe-slate-2012}/scripts/application.coffee"
+    config.output = "wp-content/themes/${1:believe-slate-2012}/scripts/application.js"
+    config.options = { :quiet =&gt; true }
+  end
+end
+
+namespace :js_min do
+  coyote do |config|
+    config.input = "wp-content/themes/${1:believe-slate-2012}/scripts/application.coffee"
+    config.output = "wp-content/themes/${1:believe-slate-2012}/scripts/application.js"
+    config.options = { :quiet =&gt; false, :compress =&gt; true }
+  end
+end
+
+namespace :css do
+  input = "wp-content/themes/${1:believe-slate-2012}/css/less/application.less"
+  output = "wp-content/themes/${1:believe-slate-2012}/css/screen.css"
+
+  coyote do |config|
+    config.input = input
+    config.output = output
+  end
+
+end
+
+namespace :css_min do
+  input = "wp-content/themes/${1:believe-slate-2012}/css/less/application.less"
+  output = "wp-content/themes/${1:believe-slate-2012}/css/screen.css"
+  coyote do |config|
+    config.options = { :quiet =&gt; false, :compress =&gt; true }
+    config.input = input
+    config.output = output
+  end
+
+end</string>
+	<key>name</key>
+	<string>Rakefile - Coyote</string>
+	<key>tabTrigger</key>
+	<string>rake</string>
+	<key>uuid</key>
+	<string>D4811947-0ADC-44E1-8837-2C45A532D1EF</string>
+</dict>
+</plist>

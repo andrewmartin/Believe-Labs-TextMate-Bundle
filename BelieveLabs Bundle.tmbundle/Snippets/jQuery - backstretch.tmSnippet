@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$.backstretch("${1:/path/to/image.jpg}", {speed: ${2:150}, centeredX: true, centeredY: true});</string>
+	<key>name</key>
+	<string>jQuery - backstretch</string>
+	<key>tabTrigger</key>
+	<string>jqbs</string>
+	<key>uuid</key>
+	<string>74898210-192C-4718-BBCC-92DB946B6A3C</string>
+</dict>
+</plist>

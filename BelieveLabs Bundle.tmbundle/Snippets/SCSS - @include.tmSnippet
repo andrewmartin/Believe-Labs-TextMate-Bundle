@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>@include ${1:transition}(${2:all 0.5s ease-out});</string>
+	<key>name</key>
+	<string>SCSS - @include</string>
+	<key>scope</key>
+	<string>source.scss</string>
+	<key>tabTrigger</key>
+	<string>@</string>
+	<key>uuid</key>
+	<string>B916FAEC-C1F8-4DE4-884C-53B8E5D9EB11</string>
+</dict>
+</plist>

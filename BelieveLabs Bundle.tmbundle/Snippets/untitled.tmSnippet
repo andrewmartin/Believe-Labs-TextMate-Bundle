@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>font-family:"alternate-gothic-no-1-d";
+font-family:"alternate-gothic-no-2-d";
+font-family:"Adelle";
+font-family:"ltc-squareface";</string>
+	<key>name</key>
+	<string>untitled</string>
+	<key>tabTrigger</key>
+	<string>gaf</string>
+	<key>uuid</key>
+	<string>16FE10C0-FE39-4804-BCC4-D2E029A5095B</string>
+</dict>
+</plist>

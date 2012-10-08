@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$(".cycle").each (index) -&gt;
+  \$(this).after("&lt;div class=\"cycle-nav\" id=\"cycle-nav-" + index + "\"&gt;&lt;div class=\"cycle-nav\"&gt;&lt;/div&gt;&lt;/a&gt;&lt;ul&gt;&lt;li class=\"cycle-prev\"&gt;&lt;a&gt;Previous&lt;/a&gt;&lt;/li&gt;&lt;li class=\"cycle-next\"&gt;&lt;a&gt;Next&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;").cycle
+    fx: "fade"
+    speed: 500
+    timeout: 5000
+    next: \$(this)
+    pager: "#cycle-nav-" + index + " .cycle-nav"
+    prev: "#cycle-nav-" + index + " li.cycle-prev a"
+    next: "#cycle-nav-" + index + " li.cycle-next a"
+    pause: 1
+    pauseOnPagerHover: 1
+
+  \$thiscyclenav = \$(this).next(".cycle-nav")
+  \$thiscyclenavmargin = \$thiscyclenav.width() / 2
+  \$thiscyclenav.css
+    left: "50%"
+    "margin-left": -\$thiscyclenavmargin + "px"</string>
+	<key>name</key>
+	<string>jQuery - cycle - coffee</string>
+	<key>tabTrigger</key>
+	<string>cycle</string>
+	<key>uuid</key>
+	<string>F9C60736-7F7F-4477-B492-F1CF98D15125</string>
+</dict>
+</plist>

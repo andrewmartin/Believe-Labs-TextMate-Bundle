@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;script type="text/javascript" charset="utf-8"&gt;
+Cufon.now()
+&lt;/script&gt;</string>
+	<key>name</key>
+	<string>jQuery - cufon - now</string>
+	<key>tabTrigger</key>
+	<string>cufon</string>
+	<key>uuid</key>
+	<string>82771AC0-9439-4EDC-AEFA-5A4EE1D6EDC7</string>
+</dict>
+</plist>

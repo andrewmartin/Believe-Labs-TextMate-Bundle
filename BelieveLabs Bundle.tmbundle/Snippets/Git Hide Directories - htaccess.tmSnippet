@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>RewriteRule \.git/ - [F,L]
+RewriteRule \.gitignore$ - [F,L]</string>
+	<key>name</key>
+	<string>Git Hide Directories - htaccess</string>
+	<key>tabTrigger</key>
+	<string>githide</string>
+	<key>uuid</key>
+	<string>3AED6F83-3403-42B9-9C05-498DA0832A6F</string>
+</dict>
+</plist>

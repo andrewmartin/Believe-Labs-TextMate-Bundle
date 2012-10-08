@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string> \$terms = get_terms("${1:my_taxonomy}");
+ \$count = count(\$terms);
+ if(\$count &gt; 0){
+     echo "&lt;ul&gt;";
+     foreach (\$terms as \$term) {
+       echo "&lt;li&gt;".\$term-&gt;name."&lt;/li&gt;";
+        
+     }
+     echo "&lt;/ul&gt;";
+ }</string>
+	<key>name</key>
+	<string>WP - Get Terms, No Links</string>
+	<key>tabTrigger</key>
+	<string>gtt</string>
+	<key>uuid</key>
+	<string>A1EBC82C-5848-489B-9544-F465841441C0</string>
+</dict>
+</plist>

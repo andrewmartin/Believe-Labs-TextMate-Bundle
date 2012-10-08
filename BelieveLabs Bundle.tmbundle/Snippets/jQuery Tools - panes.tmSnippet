@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;h2 id="$1"&gt;$2&lt;/h2&gt;
+&lt;div class="pane"&gt;
+	&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+&lt;/div&gt;</string>
+	<key>name</key>
+	<string>jQuery Tools - panes</string>
+	<key>tabTrigger</key>
+	<string>jqto</string>
+	<key>uuid</key>
+	<string>2E1525BC-E8C2-434A-A21C-523CE30BC7BB</string>
+</dict>
+</plist>

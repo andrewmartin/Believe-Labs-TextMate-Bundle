@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;meta property="og:$1" content="$2" /&gt;</string>
+	<key>name</key>
+	<string>Meta - FB Share</string>
+	<key>scope</key>
+	<string>text.html</string>
+	<key>tabTrigger</key>
+	<string>meta</string>
+	<key>uuid</key>
+	<string>EAF2EC01-4861-42D2-85D7-BBF776A9FB76</string>
+</dict>
+</plist>

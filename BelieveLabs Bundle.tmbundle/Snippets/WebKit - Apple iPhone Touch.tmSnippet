@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;link rel="apple-touch-icon" href="${1:apple-touch-icon-iphone.png}" /&gt;
+&lt;link rel="apple-touch-icon" sizes="72x72" href="${2:apple-touch-icon-ipad.png}" /&gt;
+&lt;link rel="apple-touch-icon" sizes="114x114" href="${3:apple-touch-icon-iphone4.png}" /&gt;</string>
+	<key>name</key>
+	<string>WebKit - Apple iPhone Touch</string>
+	<key>tabTrigger</key>
+	<string>atouch</string>
+	<key>uuid</key>
+	<string>A2FFDE55-249B-4D8F-AD6E-DB395D6460BB</string>
+</dict>
+</plist>

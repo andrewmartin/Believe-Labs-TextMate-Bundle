@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;h1&gt;Phasellus Sed Orci&lt;/h1&gt;
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quam quam, lobortis non facilisis a, ullamcorper nec risus. Ut placerat suscipit tristique. Maecenas ultrices sem a nisl rutrum ornare a sit amet sapien. &lt;a href="#"&gt;Nullam&lt;/a&gt; felis mi, dignissim at tempus ut, ultrices in nisi. In egestas pulvinar nisi.
+&lt;h2&gt;Phasellus Sed Orci&lt;/h2&gt;
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quam quam, lobortis non facilisis a, ullamcorper nec risus. Ut placerat suscipit tristique. Maecenas ultrices sem a nisl rutrum ornare a sit amet sapien. &lt;a href="#"&gt;Nullam&lt;/a&gt; felis mi, dignissim at tempus ut, ultrices in nisi. In egestas pulvinar nisi.
+&lt;ul&gt;
+	&lt;li&gt;Mauris convallis mattis ligula, et rhoncus ligula lacinia vel.&lt;/li&gt;
+	&lt;li&gt;Cras nec mi turpis, id gravida justo.&lt;/li&gt;
+	&lt;li&gt;Phasellus sed orci adipiscing lacus porta rhoncus ac id lectus.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Quisque tincidunt, odio a lacinia pellentesque, lacus neque sodales nisi, id sagittis tellus sem eu neque.&lt;/h3&gt;
+Donec et tincidunt diam Quisque vitae liguia Proin quam quam &lt;a href="#"&gt;Praesent Ullamorper&lt;/a&gt; Volutpat Vestibulum ac eros tellus, at gravida purus. Nullam dictum sagittis eros sed rutrum. Cras nisi sem, molestie eu interdum in, ornare in massa. Morbi in velit mauris. Ut quis lacinia elit. Praesent ullamcorper volutpat suscipit. Sed id nisl et orci luctus consequat.
+&lt;ol&gt;
+	&lt;li&gt;Mauris convallis mattis ligula, et rhoncus ligula lacinia vel.&lt;/li&gt;
+	&lt;li&gt;Cras nec mi turpis, id gravida justo.&lt;/li&gt;
+	&lt;li&gt;Phasellus sed orci adipiscing lacus porta rhoncus ac id lectus.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4&gt;Donec et tincidunt diam. Maecenas ornare laoreet varius.&lt;/h4&gt;
+Curabitur sed neque dui, quis suscipit nibh. Nam vestibulum tincidunt enim, ac hendrerit augue accumsan blandit. Ut dictum quam nec odio hendrerit eu malesuada dolor volutpat. Quisque Tincidunct l rutrum ornare a sit amet sapien. Nullam felis mi, dignissim at tempus ut, ultrices in nisi. In egestas pulvinar nisi. Mauris convallis mattis ligula, et rhoncus ligula lacinia vel.
+
+Cras nec mi turpis, id gravida justo. Phasellus sed orci adipiscing lacus porta rhoncus ac id lectus. Quisque tincidunt, odio a lacinia pellentesque, lacus neque sodales nisi, id sagittis tellus sem eu neque.
+&lt;h5&gt;Curabitur sed neque dui, quis suscipit nibh.&lt;/h5&gt;
+Nam vestibulum tincidunt enim, ac hendrerit augue accumsan blandit. Ut dictum quam nec odio hendrerit eu malesuada dolor volutpat. Quisque Tincidunct l rutrum ornare a sit amet sapien. Nullam felis mi, dignissim at tempus ut, ultrices in nisi. In egestas pulvinar nisi. Mauris convallis mattis ligula, et rhoncus ligula lacinia vel.</string>
+	<key>name</key>
+	<string>Lorem - WP Post Sample</string>
+	<key>tabTrigger</key>
+	<string>lor</string>
+	<key>uuid</key>
+	<string>15602BDB-067E-451D-B5EE-834A3EC8E1DF</string>
+</dict>
+</plist>

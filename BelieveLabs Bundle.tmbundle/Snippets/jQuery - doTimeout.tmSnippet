@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$.doTimeout(${1:500}, function() {
+	$2
+});</string>
+	<key>name</key>
+	<string>jQuery - doTimeout</string>
+	<key>tabTrigger</key>
+	<string>jqtime</string>
+	<key>uuid</key>
+	<string>9506D983-2F3C-46FA-B22E-CD223B39554A</string>
+</dict>
+</plist>

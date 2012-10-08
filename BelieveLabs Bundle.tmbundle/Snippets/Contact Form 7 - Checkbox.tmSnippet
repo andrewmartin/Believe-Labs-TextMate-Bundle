@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;label for="${1:name}"&gt;$2&lt;/label&gt;
+[checkbox $1 ${4:"option1" "option2"}]
+
+&lt;strong&gt;$2&lt;/strong&gt;: &lt;span&gt;[$1]&lt;/span&gt;</string>
+	<key>name</key>
+	<string>Contact Form 7 - Checkbox</string>
+	<key>tabTrigger</key>
+	<string>cf</string>
+	<key>uuid</key>
+	<string>620D0134-228D-4F9A-9611-B1386B140BEA</string>
+</dict>
+</plist>

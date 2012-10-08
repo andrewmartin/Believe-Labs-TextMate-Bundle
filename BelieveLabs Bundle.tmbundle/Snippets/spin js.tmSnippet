@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>// Spinner
+var opts = {
+  lines: 10, // The number of lines to draw
+  length: 10, // The length of each line
+  width: 5, // The line thickness
+  radius: 7, // The radius of the inner circle
+  color: '#fff', // #rgb or #rrggbb
+  speed: 1, // Rounds per second
+  trail: 40, // Afterglow percentage
+  shadow: false // Whether to render a shadow
+};
+$(".loader").spin(opts);</string>
+	<key>name</key>
+	<string>spin js</string>
+	<key>tabTrigger</key>
+	<string>spin</string>
+	<key>uuid</key>
+	<string>19DFB02E-DA40-4112-8491-73EE7B8C52F9</string>
+</dict>
+</plist>

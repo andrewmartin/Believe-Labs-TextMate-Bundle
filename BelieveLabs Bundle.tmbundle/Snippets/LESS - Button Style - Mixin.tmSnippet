@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.button-style(-${2:0}px, -${3:0}px, ${4:width}px, ${5:height}px, '../images/${6:layout/global/master-sprite.png}');</string>
+	<key>name</key>
+	<string>LESS - Button Style - Mixin</string>
+	<key>tabTrigger</key>
+	<string>ms</string>
+	<key>uuid</key>
+	<string>811F5C79-539F-4119-BB8A-35DCE439961A</string>
+</dict>
+</plist>

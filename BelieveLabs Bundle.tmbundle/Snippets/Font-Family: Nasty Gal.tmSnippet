@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>font-family:'ff-super-grotesk-web';
+font-family:'ff-super-grotesk-web-condensed';
+font-family:'minion-pro';</string>
+	<key>name</key>
+	<string>Font-Family: Nasty Gal</string>
+	<key>scope</key>
+	<string>source.css</string>
+	<key>tabTrigger</key>
+	<string>ff</string>
+	<key>uuid</key>
+	<string>5E9AA19D-41E9-4DB0-A7D2-F803612CD49D</string>
+</dict>
+</plist>

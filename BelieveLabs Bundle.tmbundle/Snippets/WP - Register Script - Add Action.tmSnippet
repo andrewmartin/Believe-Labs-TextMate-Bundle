@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>function ${1:activate_custom_scripts}() {
+${2:// Add custom scripts here: make sure jQuery is first!}
+}
+
+if(!is_admin()) {
+add_action('init','$1');
+}</string>
+	<key>name</key>
+	<string>WP - Register Script - Add Action</string>
+	<key>tabTrigger</key>
+	<string>wpregscr</string>
+	<key>uuid</key>
+	<string>9222B4A7-057B-4F80-8DDD-A6B4F5F881AE</string>
+</dict>
+</plist>

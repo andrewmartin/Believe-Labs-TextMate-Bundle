@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$(${1:selector}).click(function(e) {
+	\$(${2:selector}).scrollTo({ ${3:top:0}, ${4:left:0}}, ${5:fxspeed}, {easing:'${6:easeOutExpo}', onAfter: function() {
+		${7:console.log('called after')};
+	}
+	});
+	return false;
+});</string>
+	<key>name</key>
+	<string>jQuery - scrollTo</string>
+	<key>tabTrigger</key>
+	<string>scrollto</string>
+	<key>uuid</key>
+	<string>1847FDD1-0E9E-48E0-99BD-B2B99F2FF132</string>
+</dict>
+</plist>

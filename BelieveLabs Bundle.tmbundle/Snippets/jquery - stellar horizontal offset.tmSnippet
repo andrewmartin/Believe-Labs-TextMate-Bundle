@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>data-stellar-horizontal-offset="${1:40}"</string>
+	<key>name</key>
+	<string>jquery - stellar horizontal offset</string>
+	<key>tabTrigger</key>
+	<string>st</string>
+	<key>uuid</key>
+	<string>AA33ACC1-7C76-44ED-95AC-8324B7C5B10F</string>
+</dict>
+</plist>

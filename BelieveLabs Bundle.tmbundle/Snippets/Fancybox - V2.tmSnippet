@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;!-- Add fancyBox --&gt;
+&lt;link rel="stylesheet" href="&lt;?php bloginfo('template_directory'); ?&gt;/scripts/lib/fancybox/source/jquery.fancybox.css?v=2.0.4" type="text/css" media="screen" /&gt;
+&lt;script type="text/javascript" src="&lt;?php bloginfo('template_directory'); ?&gt;/scripts/lib/fancybox/source/jquery.fancybox.pack.js?v=2.0.4"&gt;&lt;/script&gt;
+
+&lt;!-- Optionaly add button and/or thumbnail helpers --&gt;
+&lt;link rel="stylesheet" href="&lt;?php bloginfo('template_directory'); ?&gt;/scripts/lib/fancybox/source/helpers/jquery.fancybox-buttons.css?v=2.0.4" type="text/css" media="screen" /&gt;
+&lt;script type="text/javascript" src="&lt;?php bloginfo('template_directory'); ?&gt;/scripts/lib/fancybox/source/helpers/jquery.fancybox-buttons.js?v=2.0.4"&gt;&lt;/script&gt;
+
+&lt;link rel="stylesheet" href="&lt;?php bloginfo('template_directory'); ?&gt;/scripts/lib/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=2.0.4" type="text/css" media="screen" /&gt;
+&lt;script type="text/javascript" src="&lt;?php bloginfo('template_directory'); ?&gt;/scripts/lib/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=2.0.4"&gt;&lt;/script&gt;
+
+&lt;script type="text/javascript"&gt;
+jQuery(document).ready(function(\$) {
+	\$("a.fancybox").fancybox({
+    	openEffect	: '${1:elastic/fade/none}',
+    	closeEffect	: '$1',
+		nextEffect: '$1',
+		prevEffect : '$1',
+		closeBtn : true,
+		maxWidth	: 800,
+		maxHeight	: 600,
+		fitToView	: true,
+		width		: '70%',
+		height		: '70%',
+		autoSize	: false,
+		closeClick	: false,
+		wrapCSS : 'fancbox-content',
+		helpers : {
+    		title : {
+    			type : '${2:float/outside/over/inside}'
+    		},
+			buttons	: {},
+			overlay	: {
+				opacity : 0.8,
+				css : {
+					'background-color' : '#000'
+				}
+			},
+			thumbs	: {
+				width	: 50,
+				height	: 50
+			}
+    	}
+	});
+});
+&lt;/script&gt;</string>
+	<key>name</key>
+	<string>Fancybox - V2</string>
+	<key>tabTrigger</key>
+	<string>fancy</string>
+	<key>uuid</key>
+	<string>06A6E7FC-9F31-43EC-933F-A3E4C2D12317</string>
+</dict>
+</plist>

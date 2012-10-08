@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>User-agent: *
+Disallow: /</string>
+	<key>name</key>
+	<string>Robots - No follow</string>
+	<key>tabTrigger</key>
+	<string>robots</string>
+	<key>uuid</key>
+	<string>EBC0C494-B955-4031-9C49-7FC2CC5413E3</string>
+</dict>
+</plist>

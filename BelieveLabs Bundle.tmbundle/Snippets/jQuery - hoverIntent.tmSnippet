@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$('').hoverIntent (
+function() {
+	\$(this).addClass("hover");
+},
+function() {
+	\$(this).removeClass("hover");
+});</string>
+	<key>name</key>
+	<string>jQuery - hoverIntent</string>
+	<key>tabTrigger</key>
+	<string>jqhi</string>
+	<key>uuid</key>
+	<string>36D97355-34E4-4946-AE13-170D03A4A5D0</string>
+</dict>
+</plist>

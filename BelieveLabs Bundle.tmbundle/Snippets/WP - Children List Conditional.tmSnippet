@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?
+if(\$post-&gt;post_parent) { \$children = wp_list_pages("title_li=&amp;child_of=".\$post-&gt;post_parent."&amp;echo=0"); } 
+else { \$children = wp_list_pages("title_li=&amp;child_of=".\$post-&gt;ID."&amp;echo=0"); } 
+?&gt;
+
+&lt;? if (\$children) { echo 'has-children'; } ?&gt;
+
+&lt;? if (\$children) { ?&gt;
+&lt;ul class="subnav"&gt;
+&lt;?php echo \$children; ?&gt;
+&lt;/ul&gt;
+&lt;? } ?&gt;</string>
+	<key>name</key>
+	<string>WP - Children List Conditional</string>
+	<key>tabTrigger</key>
+	<string>wpc</string>
+	<key>uuid</key>
+	<string>5B78A0F2-5553-4D0C-88D0-5BA8D644F1C6</string>
+</dict>
+</plist>

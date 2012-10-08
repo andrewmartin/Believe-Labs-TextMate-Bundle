@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>register_sidebar(array(
+  'name' =&gt; '${1:Enter Name Here}',
+  'description' =&gt; '${2:Enter Description Here}',
+  'before_widget' =&gt; '&lt;div class="widget ad"&gt;',
+  'after_widget' =&gt; '&lt;/div&gt;'
+));</string>
+	<key>name</key>
+	<string>WP - Register Widget</string>
+	<key>tabTrigger</key>
+	<string>widget</string>
+	<key>uuid</key>
+	<string>C81DD636-1791-48C3-A81E-D09489CB84F3</string>
+</dict>
+</plist>

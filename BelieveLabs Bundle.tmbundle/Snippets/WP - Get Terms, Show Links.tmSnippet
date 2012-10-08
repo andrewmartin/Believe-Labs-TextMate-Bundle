@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$args = array( 'taxonomy' =&gt; '${1:my_term}' );
+
+\$terms = get_terms('$1', \$args);
+
+\$count = count(\$terms); \$i=0;
+if (\$count &gt; 0) {
+    \$cape_list = '&lt;p class="my_term-archive"&gt;';
+	echo \$cape_list;
+    foreach (\$terms as \$term) {
+        \$i++;
+    	\$term_list .= '&lt;a href="/term-base/' . \$term-&gt;slug . '" title="' . sprintf(__('View all post filed under %s', 'my_localization_domain'), \$term-&gt;name) . '"&gt;' . \$term-&gt;name . '&lt;/a&gt;';
+    	if (\$count != \$i) \$term_list .= ' &amp;middot; '; else \$term_list .= '&lt;/p&gt;';
+    }
+    echo \$term_list;
+}</string>
+	<key>name</key>
+	<string>WP - Get Terms, Show Links</string>
+	<key>tabTrigger</key>
+	<string>gtt</string>
+	<key>uuid</key>
+	<string>CB44CA1F-7D41-4B53-A432-12E04AD2F19B</string>
+</dict>
+</plist>

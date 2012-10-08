@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>background:transparent url(../images/${1:layout/global/master-sprite.png}) no-repeat scroll -${2:0}px -${3:0}px;
+width:$4px;
+height:$5px;
+text-indent:-9999px;
+display:block;
+${6:cursor:pointer;}
+${7:border: 0 none;}</string>
+	<key>name</key>
+	<string>CSS bg - button style</string>
+	<key>scope</key>
+	<string>source.css</string>
+	<key>tabTrigger</key>
+	<string>bgi</string>
+	<key>uuid</key>
+	<string>A7A5B09B-7F30-46A1-ABB6-3F3DDBF11D43</string>
+</dict>
+</plist>

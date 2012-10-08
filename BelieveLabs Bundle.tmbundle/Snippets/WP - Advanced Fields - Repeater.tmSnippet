@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php while(the_repeater_field('$1')): ?&gt;
+$2
+&lt;?php endwhile; ?&gt;</string>
+	<key>name</key>
+	<string>WP - Advanced Fields - Repeater</string>
+	<key>tabTrigger</key>
+	<string>wpaf</string>
+	<key>uuid</key>
+	<string>A2F9195C-57CD-46EC-8272-8B2008AC4DA2</string>
+</dict>
+</plist>

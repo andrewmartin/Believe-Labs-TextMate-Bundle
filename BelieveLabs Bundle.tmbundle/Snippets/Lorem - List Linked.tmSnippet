@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;ul&gt;
+	&lt;li&gt;&lt;a href="/" title="Lorem ipsum dolor sit amet. "&gt;Lorem ipsum dolor sit amet. &lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="/" title="Consectetur adipisicing elit. "&gt;Consectetur adipisicing elit. &lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="/" title="Sed do eiusmod tempor incididunt. "&gt;Sed do eiusmod tempor incididunt. &lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="/" title="Labore et dolore magna aliqua. "&gt;Labore et dolore magna aliqua. &lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="/" title="Ut enim ad minim veniam. "&gt;Ut enim ad minim veniam. &lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="/" title="Quis nostrud exercitation ullamco laboris. "&gt;Quis nostrud exercitation ullamco laboris. &lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="/" title="Nisi ut aliquip ex ea commodo consequat. "&gt;Nisi ut aliquip ex ea commodo consequat. &lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="/" title="Excepteur sint occaecat cupidatat."&gt;Excepteur sint occaecat cupidatat.&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="/" title="Non proident, sunt in culpa."&gt;Non proident, sunt in culpa.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</string>
+	<key>name</key>
+	<string>Lorem - List Linked</string>
+	<key>tabTrigger</key>
+	<string>lor</string>
+	<key>uuid</key>
+	<string>188BD595-0F15-4AC6-B739-67DF300837A8</string>
+</dict>
+</plist>

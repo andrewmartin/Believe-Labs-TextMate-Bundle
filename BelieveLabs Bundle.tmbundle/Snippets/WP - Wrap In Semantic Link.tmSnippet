@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;a href="&lt;?php the_permalink(); ?&gt;" title="&lt;?php the_title(); ?&gt;"&gt;${5:$TM_SELECTED_TEXT}&lt;/a&gt;$0
+</string>
+	<key>keyEquivalent</key>
+	<string>^~@a</string>
+	<key>name</key>
+	<string>WP - Wrap In Semantic Link</string>
+	<key>scope</key>
+	<string>text.html</string>
+	<key>tabTrigger</key>
+	<string>a</string>
+	<key>uuid</key>
+	<string>D4B690FF-1AA8-4EE9-A887-7E6EB60FE3EA</string>
+</dict>
+</plist>

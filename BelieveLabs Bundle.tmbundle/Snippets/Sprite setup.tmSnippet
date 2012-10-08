@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>#main #$1.master-sprite a {
+	left:$2px;
+	top:$3px;
+	background-position:-$4px -$5px;
+	width:$6px;
+	height:$7px;
+}</string>
+	<key>name</key>
+	<string>Sprite setup</string>
+	<key>tabTrigger</key>
+	<string>spr</string>
+	<key>uuid</key>
+	<string>C0E05AE2-4608-42A8-A52B-BB4C315CEC66</string>
+</dict>
+</plist>

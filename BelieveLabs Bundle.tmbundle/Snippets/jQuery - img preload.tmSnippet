@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>\$all_images = [];
+\$pl = \$('img.pl');
+\$loader = \$('.loader');
+\$(".loader").spin(opts);
+
+\$pl.each(function(index) {
+	\$all_images.push(\$(this).attr('src'));
+});
+
+\$.imgpreload(\$all_images,
+{
+	each: function()
+	{
+		
+	},
+	all: function()
+	{
+		\$loader.hide(fxs/2,eas,function() {
+			\$(this).remove();
+			\$pl.css('display', 'block').animate({opacity:1}, fxs/2);
+		});
+	}
+});</string>
+	<key>name</key>
+	<string>jQuery - img preload</string>
+	<key>tabTrigger</key>
+	<string>preload</string>
+	<key>uuid</key>
+	<string>DFE86AD5-D26B-41B2-98D1-DB647B72DD82</string>
+</dict>
+</plist>

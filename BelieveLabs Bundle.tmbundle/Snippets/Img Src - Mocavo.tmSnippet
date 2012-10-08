@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?= SITE_URL_STATIC ?&gt;/</string>
+	<key>name</key>
+	<string>Mocavo - Site URL</string>
+	<key>scope</key>
+	<string>text.html</string>
+	<key>tabTrigger</key>
+	<string>siteurl</string>
+	<key>uuid</key>
+	<string>C560159F-6EE7-4594-92B0-005CD30890BE</string>
+</dict>
+</plist>

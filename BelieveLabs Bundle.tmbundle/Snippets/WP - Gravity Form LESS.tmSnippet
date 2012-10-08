@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.gform_wrapper {
+  h3.gform_title {
+	margin: 0;
+  	font-family: @headingsFontFamily;
+  	font-weight: @headingsFontWeight;
+  	color: @headingsColor;
+  	text-rendering: optimizelegibility; // Fix the character spacing for headings
+  }
+  ul {
+  margin:0;
+  padding:0;
+    li {
+      list-style:none;
+      padding:0;
+    }
+  }
+  .gfield_captcha_container {
+    img {
+         margin:0 0 10px 0; 
+    }
+  }
+  .gform_footer {
+    .button {
+
+      &amp;:hover {
+
+      }
+    }
+  }
+}</string>
+	<key>name</key>
+	<string>WP - Gravity Form LESS</string>
+	<key>tabTrigger</key>
+	<string>gravity</string>
+	<key>uuid</key>
+	<string>95F9ABDE-2A92-4E27-BAB4-891B0A22D3C0</string>
+</dict>
+</plist>

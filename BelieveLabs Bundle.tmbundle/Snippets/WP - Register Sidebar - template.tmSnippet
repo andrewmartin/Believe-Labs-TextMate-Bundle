@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>register_sidebar(array(
+'id'	=&gt; '$1',
+'name' =&gt; '$2',
+'description' =&gt; '$3',
+'before_widget' =&gt; \$before_widget,
+'after_widget' =&gt; \$after_widget,
+'before_title' =&gt; \$before_title,
+'after_title' =&gt; \$after_title
+));</string>
+	<key>name</key>
+	<string>WP - Register Sidebar - template</string>
+	<key>tabTrigger</key>
+	<string>wpsidebar</string>
+	<key>uuid</key>
+	<string>5FA01071-3C37-4ACD-B983-AC9777399081</string>
+</dict>
+</plist>

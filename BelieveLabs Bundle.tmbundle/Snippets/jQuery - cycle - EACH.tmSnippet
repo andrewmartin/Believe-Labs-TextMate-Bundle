@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>  \$('.cycle').each(function(index) {
+    \$(this).after('&lt;div class="cycle-nav" id="cycle-nav-' + index + '"&gt;&lt;div class="nav"&gt;&lt;/div&gt;&lt;/a&gt;&lt;ul&gt;&lt;li class="cycle-prev"&gt;&lt;a&gt;Previous&lt;/a&gt;&lt;/li&gt;&lt;li class="cycle-next"&gt;&lt;a&gt;Next&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;').cycle({ 
+      fx:     'fade', 
+      speed:  500, 
+      timeout: 5000,
+      next:   \$(this),
+      pager: '#cycle-nav-' + index + ' .nav', 
+      prev: '#cycle-nav-' + index + ' li.cycle-prev a', 
+      next: '#cycle-nav-' + index + ' li.cycle-next a',
+      pause:         1,      // true to enable "pause on hover"
+      pauseOnPagerHover: 1 // true to pause when hovering over pager link
+    });
+	\$thiscyclenav = \$(this).next('.cycle-nav');
+	\$thiscyclenavmargin = \$thiscyclenav.width() / 2;
+	\$thiscyclenav.css({
+		left: '50%',
+		'margin-left':-\$thiscyclenavmargin+'px'
+	});
+});</string>
+	<key>name</key>
+	<string>jQuery - cycle - EACH</string>
+	<key>tabTrigger</key>
+	<string>cycle</string>
+	<key>uuid</key>
+	<string>87FABDE1-57C9-4916-859B-F92B9BB7C859</string>
+</dict>
+</plist>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;div class="post-nav"&gt;
+&lt;div class="alignleft"&gt;&lt;?php posts_nav_link('','','&amp;laquo; Previous Entries') ?&gt;&lt;/div&gt;
+&lt;div class="alignright"&gt;&lt;?php posts_nav_link('','Next Entries &amp;raquo;','') ?&gt;&lt;/div&gt;
+&lt;/div&gt;</string>
+	<key>name</key>
+	<string>WP - Posts Nav Link</string>
+	<key>tabTrigger</key>
+	<string>wpm</string>
+	<key>uuid</key>
+	<string>36CB6550-0AB6-43A9-9336-D079404E2334</string>
+</dict>
+</plist>

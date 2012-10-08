@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;?php if (get_sub_field('$1')) { ?&gt;
+	&lt;${2:div} class="$3"&gt;&lt;?php the_field('$1'); ?&gt;&lt;/$2&gt;
+&lt;?php } ?&gt;</string>
+	<key>name</key>
+	<string>WP - Advanced Fields - if get sub field</string>
+	<key>tabTrigger</key>
+	<string>wpafif</string>
+	<key>uuid</key>
+	<string>92BD4F2C-0C85-40B0-AEF2-50C0DD3C079E</string>
+</dict>
+</plist>

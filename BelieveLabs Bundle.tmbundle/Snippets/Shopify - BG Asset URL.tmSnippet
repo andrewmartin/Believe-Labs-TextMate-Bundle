@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>background:transparent url({{ '$1' | asset_url }}) no-repeat scroll 0px 0px;
+width:$2px;
+height:$3px;
+text-indent:-9999px;
+display:block;
+${4:cursor:pointer;}
+${5:border: 0 none;}</string>
+	<key>name</key>
+	<string>Shopify - CSS bg - button style</string>
+	<key>tabTrigger</key>
+	<string>sbgi</string>
+	<key>uuid</key>
+	<string>C84A8448-96DB-45CA-A5DF-F7D238F508EC</string>
+</dict>
+</plist>
